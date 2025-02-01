@@ -7,8 +7,10 @@ This Worker is intended to be used by another Worker via Service Bindings.
 
 The following environment variables needs to be set in .dev.env:
 
-- `JQUANTS_API_EMAIL`: Email for JQuants API
-- `JQUANTS_API_PW`: Password for JQuants API
+```conf
+JQUANTS_API_EMAIL=<Email for JQuants API>
+JQUANTS_API_PW=<Password for JQuants API>
+```
 
 For production, by using `wrangler secret` command, you can set the environment variables.
 
