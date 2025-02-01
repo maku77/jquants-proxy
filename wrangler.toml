@@ -1,0 +1,33 @@
+name = "jquants-proxy"
+main = "src/index.ts"
+compatibility_date = "2025-01-29"
+
+[observability]
+enabled = true
+
+[dev]
+port = 18787
+
+[[kv_namespaces]]
+binding = "KV"
+id = "51d2ee4257624e4f91442bed0c16f925"
+
+# Service Bindings (communicate between multiple Workers)
+# [[services]]
+# binding = "MY_SERVICE"
+# service = "my-service"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
